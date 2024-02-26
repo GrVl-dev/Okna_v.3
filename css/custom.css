@@ -34,3 +34,9 @@
   font-family: "Roboto+Slab";
   src: url("../fonts/Roboto_Slab/RobotoSlab-Bold.ttf");
 }
+
+.shift {
+  margin-top: -100px;
+  padding-top: 15px;
+  background: #F8F9FA;
+}
