@@ -116,10 +116,58 @@ header.contacts-bg {
   background-size: cover;
   cursor: pointer;
 }
-
+.card-bg-3 {
+  transition: background-position 2s;
+  background: 
+  linear-gradient(rgba(4, 110, 136, 0.3),
+  rgba(37, 31, 31, 0.1)),
+  url("../assets/img/index/card-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.card-bg-4 {
+  cursor: pointer;
+}
 .card-bg-1:hover {
   background-position: top right;
 }
 .card-bg-2:hover {
+  background-position: top right;
+}
+.card-bg-3:hover {
+  background-position: top right;
+}
+
+.card-works-bg-1 {
+  transition: background-position 2s;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.1),
+  rgba(0, 0, 0, 0.3)),
+  url("../assets/img/works/works-card-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.card-works-bg-1:hover {
+  background-position: top right;
+}
+.card-works-bg-2 {
+  transition: background-position 2s;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.1),
+  rgba(0, 0, 0, 0.3)),
+  url("../assets/img/works/works-card-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.card-works-bg-2:hover {
   background-position: top right;
 }
